@@ -1,0 +1,17 @@
+package com.bit.dept.action;
+
+import com.bit.dept.model.DeptDao;
+import com.opensymphony.xwork2.Action;
+
+public class DeptListAction implements Action{
+
+	@Override
+	public String execute() throws Exception {
+		DeptDao dao=null;
+		dao=new DeptDao();
+		
+		
+		return Action.SUCCESS;
+	}
+
+}

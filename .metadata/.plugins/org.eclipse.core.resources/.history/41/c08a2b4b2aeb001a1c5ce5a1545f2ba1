@@ -1,0 +1,6 @@
+package com.bit.util;
+
+public class Ex02 implements Filter{
+	
+
+}

@@ -1,0 +1,24 @@
+package com.bit.dept.model;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class DeptDao {
+	Connection conn;
+	
+	
+	
+	public DeptDao() {
+		String url="jdbc:mysql://localhost:3306/db?user=someUser&disableMariaDbDriver";
+		String user="scott";
+		String password="tiger";
+		
+		try {
+			Class.forName("org.mariadb.jdbc.Driver");
+			conn=DriverManager.getConnection(url,user,password);
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

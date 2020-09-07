@@ -1,0 +1,10 @@
+package com.bit.dept.model;
+
+public class DaoTest {
+
+	public static void main(String[] args) {
+		DeptDao dao= null;
+		System.out.println("connection"+dao.conn);
+		System.out.println("정상처리");
+	}
+}

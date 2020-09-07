@@ -1,0 +1,19 @@
+package com.bit.dept.model;
+
+import java.sql.SQLException;
+
+public class DaoTest {
+
+	public static void main(String[] args) {
+		
+		try {
+			DeptDao dao= new DeptDao();
+			System.out.println("connection"+dao.conn);
+			System.out.println("정상처리");
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+}

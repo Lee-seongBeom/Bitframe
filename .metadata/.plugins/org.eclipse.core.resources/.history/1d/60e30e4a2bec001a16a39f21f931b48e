@@ -1,0 +1,9 @@
+package com.bit.model.entity;
+
+public class EmpVo {
+	private int sabun;
+	private String name;
+	
+	
+
+}

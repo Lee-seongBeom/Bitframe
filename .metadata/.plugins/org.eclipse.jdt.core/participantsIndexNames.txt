@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+C:\Users\vnvnw\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1169106855.index
+\struts02\src
+C:\Users\vnvnw\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2938865615.index
+\structs01\src
+C:\Users\vnvnw\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3005041587.index
+\bitJeju\src
+C:\Users\vnvnw\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1930803245.index
+\struts03\src

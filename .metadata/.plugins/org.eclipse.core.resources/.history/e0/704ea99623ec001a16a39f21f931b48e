@@ -1,0 +1,3 @@
+#struts.properties
+struts.devMode =true
+struts.action.extension=bit

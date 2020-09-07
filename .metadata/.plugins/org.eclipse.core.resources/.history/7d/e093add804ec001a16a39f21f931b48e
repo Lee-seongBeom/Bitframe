@@ -1,0 +1,33 @@
+<%@page import="com.bit.dept.model.entity.DeptVo"%>
+<%@page import="java.util.ArrayList"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>리스트 페이지</h2>
+<table>
+	<tr>
+		<th>deptno</th>
+		<th>dname</th>
+		<th>loc</th>
+	</tr>
+	<%
+		ArrayList<DeptVo> list = null;
+		list = (new ArrayList<DeptVo>())request.getAttribute("alist");
+	%>
+	
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	
+</table>
+
+</body>
+</html>
